@@ -7,14 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000578573BF44EFCBF2CAF42 /* UbuntuSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF035C5EFC4B379F9DF80A /* UbuntuSans-Regular.ttf */; };
 		00E356F31AD99517003FC87E /* Food_Island_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Food_Island_ProjectTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Food_Island_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Food_Island_Project.a */; };
+		0F806DFB7EAA47D281B4FB52 /* UbuntuSans_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDA6BC3BDD1E458DA808985C /* UbuntuSans_Condensed-BoldItalic.ttf */; };
+		125150F75A084108A06CE020 /* UbuntuSans_Condensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A437C31E8AD443EF88F54C0E /* UbuntuSans_Condensed-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1798842A8F4249CA9DBC07E7 /* UbuntuSans_Condensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247A424734AD4694ACBB5628 /* UbuntuSans_Condensed-ExtraLightItalic.ttf */; };
+		201977C8A3394C84B36655F5 /* UbuntuSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF11431974C46AFA5199085 /* UbuntuSans-Bold.ttf */; };
+		2A12134F40CF4CDDA8420078 /* UbuntuSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441CF752F93844A0BD94EDFA /* UbuntuSans-ThinItalic.ttf */; };
+		2CFCC8AE8B7846D493455CD6 /* UbuntuSans_Condensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5D6046465B648A99796A590 /* UbuntuSans_Condensed-Thin.ttf */; };
+		2E61667BD868471CA2EE3D24 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1620E7BC92D54FBC8D29B902 /* Inter-Black.ttf */; };
+		3006CA2271BA417CA33D3A39 /* UbuntuSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEE645F1D66D4DCCB2369B59 /* UbuntuSans-LightItalic.ttf */; };
+		3018A96773F54CD787F2D086 /* UbuntuSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A166FC341ADF45D39314A3DB /* UbuntuSans-MediumItalic.ttf */; };
+		3361953BB33249C8A9A98C5D /* UbuntuSans_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99D6B8C170734B7690AB2ED4 /* UbuntuSans_SemiCondensed-Medium.ttf */; };
+		361ECDE6B63449D4B4A650A9 /* UbuntuSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 213831A7DE22408CAE1764F7 /* UbuntuSans-Light.ttf */; };
+		3643B9A1C05F4B7E91B6BEF9 /* UbuntuSans_SemiCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92BD4D6A97E64E8AAD9E6D4A /* UbuntuSans_SemiCondensed-ExtraLightItalic.ttf */; };
+		3789BAA2BD814DD884A6FCBE /* UbuntuSans_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B13C72D6C0B24BE5AE85C1E3 /* UbuntuSans_SemiCondensed-BoldItalic.ttf */; };
+		3E0FBAC949B74E02911D96CD /* UbuntuSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3EC3D7DF24C92BD8F6BC1 /* UbuntuSans-ExtraLight.ttf */; };
+		3F2BD1E33E57460884D3F518 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB52D2B61B4DF6B6C3EBDB /* Inter-Regular.ttf */; };
+		44F9C24A87AF4F8A9731421A /* UbuntuSans_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 270D3186A6194B7282138B56 /* UbuntuSans_Condensed-LightItalic.ttf */; };
+		47A10D2D9B824BE88619EFDB /* UbuntuSans_Condensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53B529512BB84FD78BC9BE1C /* UbuntuSans_Condensed-ThinItalic.ttf */; };
+		48052179DF8748DA8B8C4FEE /* UbuntuSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8840D877941009B64B98F /* UbuntuSans-Thin.ttf */; };
+		4DE1548334B14793A5D33AF2 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEC22717CB804E8A9FBC8128 /* Inter-Bold.ttf */; };
+		53AFCA4B36054D8EB56F2EC1 /* UbuntuSans_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFD1BA8441C24C9B89BE0B03 /* UbuntuSans_Condensed-ExtraBold.ttf */; };
+		5597F256B8BC469BA05B4765 /* UbuntuSans_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E76D74A2CA514150AD906C9B /* UbuntuSans_Condensed-Italic.ttf */; };
+		5A9DD6C13B934A3387187B78 /* UbuntuSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5775FF63354FA0ABE3BDB4 /* UbuntuSans-ExtraBoldItalic.ttf */; };
+		6685E51CAEB0480CA9B84EED /* UbuntuSans_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19B1B2FE71FD47D4B9DB4364 /* UbuntuSans_SemiCondensed-MediumItalic.ttf */; };
+		6B21CFE55F87416487BC1158 /* UbuntuSans_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77701C2A64DB48739EEFD012 /* UbuntuSans_SemiCondensed-Regular.ttf */; };
+		6D724A6714454849B4C671A9 /* UbuntuSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC7DF909B95E4F8AB179B8A2 /* UbuntuSans-ExtraLightItalic.ttf */; };
+		7102D8E12EDF406E84AE56E1 /* UbuntuSans_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E38E2B5016134621AE63E0A5 /* UbuntuSans_Condensed-SemiBoldItalic.ttf */; };
+		74D0F621AD66482C9A0DF97D /* UbuntuSans_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6C6DD3A561E4EC29086470F /* UbuntuSans_SemiCondensed-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Food_Island_Project-Food_Island_ProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Food_Island_Project-Food_Island_ProjectTests.a */; };
+		7A18BF7BEE7F4CD5BA4CCEF1 /* UbuntuSans_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8CB13067048CCAE9F9562 /* UbuntuSans_SemiCondensed-Italic.ttf */; };
+		7AE9C9F167FE4AB19C5E1206 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB56A0D4CDA3476F8521C01B /* Inter-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		834DCF6FCC3144309F676259 /* UbuntuSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F73A0D85F2A485EB2F6773F /* UbuntuSans-Italic.ttf */; };
+		8388D59CF04545DA881429C8 /* UbuntuSans_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CF431260D7A473B8D8934EC /* UbuntuSans_Condensed-Light.ttf */; };
+		83E8AFB6749A4F868E770717 /* UbuntuSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC117046F818423E8B3693D4 /* UbuntuSans-ExtraBold.ttf */; };
+		850354C1DE6345B9B20DB4C2 /* UbuntuSans_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF7F1E7265E84692970BF4B2 /* UbuntuSans_SemiCondensed-Light.ttf */; };
+		8751EC13AEA04ADF9967A984 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94358F69832E4790B487664A /* Inter-Thin.ttf */; };
+		896A06DBD6F04F40A683F618 /* UbuntuSans_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4266656308FA489689C58E66 /* UbuntuSans_Condensed-Bold.ttf */; };
+		8DE3E722540E4D9781804324 /* UbuntuSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA79F73A7222461584059B4C /* UbuntuSans-Medium.ttf */; };
 		921B084830AE4734BB567104 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A807E656B7700505D36677AC /* PrivacyInfo.xcprivacy */; };
+		9C2A2113CA6845569C88990E /* UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12129CABF1D04E97A336525E /* UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf */; };
+		A2E4F7AA382F4917956B94E1 /* UbuntuSans_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCEEE0670A574EEC87DAE241 /* UbuntuSans_SemiCondensed-LightItalic.ttf */; };
+		A3E6720EBEFA46A4928CE80F /* UbuntuSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BE6FB3307AC490280DD4119 /* UbuntuSans-SemiBold.ttf */; };
+		AA3BC8C989D44017A1B38036 /* UbuntuSans_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E15EC88DE4D268F81DB60 /* UbuntuSans_Condensed-MediumItalic.ttf */; };
+		AD03582557D54DBBB86FA7FB /* UbuntuSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A7C8916FFD94CF7AB78034C /* UbuntuSans_Condensed-Regular.ttf */; };
+		AF93B97B661040B3B8033AC2 /* UbuntuSans_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47EF870E9B0F4B55AA151B95 /* UbuntuSans_SemiCondensed-SemiBold.ttf */; };
+		B4C64F59E73C4FD798978D64 /* UbuntuSans_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A30B11122F4C6DB7AF357C /* UbuntuSans_Condensed-ExtraBoldItalic.ttf */; };
+		B77BE076C6B441F7A8465FC2 /* UbuntuSans_SemiCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1259CFB81E49497AA493C7F1 /* UbuntuSans_SemiCondensed-Thin.ttf */; };
+		C441F91485574208901CDCD1 /* UbuntuSans_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5DEFD4BCACC44CEB9896FED /* UbuntuSans_SemiCondensed-ExtraBold.ttf */; };
+		C6D3DA56A162424EA7D85EA3 /* UbuntuSans_SemiCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7B2EFCBF9244B0081729506 /* UbuntuSans_SemiCondensed-ExtraLight.ttf */; };
+		C95C1FFB64F3466BA227E28E /* UbuntuSans_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FA12C628349491FA41011AC /* UbuntuSans_SemiCondensed-SemiBoldItalic.ttf */; };
+		CD085FDCC3FC40518FE3DDC4 /* UbuntuSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC468DC8EC7414CA0B7688A /* UbuntuSans-SemiBoldItalic.ttf */; };
+		D12C28DBE6BF48808AFF571E /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0C86564272545078E0FD556 /* Inter-ExtraBold.ttf */; };
+		DA48EF95807341FC8E6563E6 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E162B74B79F4943A6163756 /* Inter-ExtraLight.ttf */; };
+		E65639908FA74A8EB2F045FD /* UbuntuSans_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2071669BD4134D41A82D4523 /* UbuntuSans_Condensed-Medium.ttf */; };
+		EA8A670F27164FDFA23246DD /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F61E7E3ADB4726966C25B9 /* Inter-SemiBold.ttf */; };
+		ED07B962E9BF410B9CB3B69B /* UbuntuSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ECF66CAD9154B0A951B6B82 /* UbuntuSans-BoldItalic.ttf */; };
+		F6E6B853FF73409D9292EF24 /* UbuntuSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7828E4F6E54A13A151110D /* UbuntuSans_Condensed-SemiBold.ttf */; };
+		F9B322EA80D747DEA0BA2B6B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA7DF72CCA498B967B3671 /* Inter-Light.ttf */; };
+		FCA9D6953E9743ED985B2A5F /* UbuntuSans_SemiCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6A1D1C9C1048FB81D18B5B /* UbuntuSans_SemiCondensed-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +88,9 @@
 		00E356EE1AD99517003FC87E /* Food_Island_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food_Island_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Food_Island_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_Island_ProjectTests.m; sourceTree = "<group>"; };
+		0C2E15EC88DE4D268F81DB60 /* UbuntuSans_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-MediumItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		12129CABF1D04E97A336525E /* UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1259CFB81E49497AA493C7F1 /* UbuntuSans_SemiCondensed-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Thin.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Thin.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Food_Island_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food_Island_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Food_Island_Project/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Food_Island_Project/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,15 +98,69 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Food_Island_Project/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Food_Island_Project/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Food_Island_Project/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1620E7BC92D54FBC8D29B902 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assests/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		19B1B2FE71FD47D4B9DB4364 /* UbuntuSans_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-MediumItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Food_Island_Project-Food_Island_ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Food_Island_Project-Food_Island_ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5775FF63354FA0ABE3BDB4 /* UbuntuSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-ExtraBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1BE6FB3307AC490280DD4119 /* UbuntuSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-SemiBold.ttf"; path = "../assests/fonts/UbuntuSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		1CC468DC8EC7414CA0B7688A /* UbuntuSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-SemiBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2071669BD4134D41A82D4523 /* UbuntuSans_Condensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Medium.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		213831A7DE22408CAE1764F7 /* UbuntuSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Light.ttf"; path = "../assests/fonts/UbuntuSans-Light.ttf"; sourceTree = "<group>"; };
+		247A424734AD4694ACBB5628 /* UbuntuSans_Condensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-ExtraLightItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		270D3186A6194B7282138B56 /* UbuntuSans_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-LightItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		2E162B74B79F4943A6163756 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assests/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		34DB52D2B61B4DF6B6C3EBDB /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assests/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Food_Island_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food_Island_Project.debug.xcconfig"; path = "Target Support Files/Pods-Food_Island_Project/Pods-Food_Island_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF431260D7A473B8D8934EC /* UbuntuSans_Condensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Light.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Light.ttf"; sourceTree = "<group>"; };
+		4266656308FA489689C58E66 /* UbuntuSans_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Bold.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		441CF752F93844A0BD94EDFA /* UbuntuSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-ThinItalic.ttf"; path = "../assests/fonts/UbuntuSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		47EF870E9B0F4B55AA151B95 /* UbuntuSans_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-SemiBold.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		4DBF035C5EFC4B379F9DF80A /* UbuntuSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Regular.ttf"; path = "../assests/fonts/UbuntuSans-Regular.ttf"; sourceTree = "<group>"; };
+		4ECF66CAD9154B0A951B6B82 /* UbuntuSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-BoldItalic.ttf"; path = "../assests/fonts/UbuntuSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		53B529512BB84FD78BC9BE1C /* UbuntuSans_Condensed-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-ThinItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Food_Island_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food_Island_Project.release.xcconfig"; path = "Target Support Files/Pods-Food_Island_Project/Pods-Food_Island_Project.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Food_Island_Project-Food_Island_ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food_Island_Project-Food_Island_ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Food_Island_Project-Food_Island_ProjectTests/Pods-Food_Island_Project-Food_Island_ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Food_Island_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Food_Island_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A30B11122F4C6DB7AF357C /* UbuntuSans_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-ExtraBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6DEA7DF72CCA498B967B3671 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assests/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		6EF3EC3D7DF24C92BD8F6BC1 /* UbuntuSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-ExtraLight.ttf"; path = "../assests/fonts/UbuntuSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		77701C2A64DB48739EEFD012 /* UbuntuSans_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Regular.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		7C7828E4F6E54A13A151110D /* UbuntuSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-SemiBold.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Food_Island_Project/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Food_Island_Project-Food_Island_ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food_Island_Project-Food_Island_ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Food_Island_Project-Food_Island_ProjectTests/Pods-Food_Island_Project-Food_Island_ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F73A0D85F2A485EB2F6773F /* UbuntuSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Italic.ttf"; path = "../assests/fonts/UbuntuSans-Italic.ttf"; sourceTree = "<group>"; };
+		8FA12C628349491FA41011AC /* UbuntuSans_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-SemiBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8FB8840D877941009B64B98F /* UbuntuSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Thin.ttf"; path = "../assests/fonts/UbuntuSans-Thin.ttf"; sourceTree = "<group>"; };
+		92BD4D6A97E64E8AAD9E6D4A /* UbuntuSans_SemiCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-ExtraLightItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		94358F69832E4790B487664A /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assests/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		99D6B8C170734B7690AB2ED4 /* UbuntuSans_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Medium.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		9A7C8916FFD94CF7AB78034C /* UbuntuSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Regular.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		9CF11431974C46AFA5199085 /* UbuntuSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Bold.ttf"; path = "../assests/fonts/UbuntuSans-Bold.ttf"; sourceTree = "<group>"; };
+		9FE8CB13067048CCAE9F9562 /* UbuntuSans_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Italic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		A166FC341ADF45D39314A3DB /* UbuntuSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-MediumItalic.ttf"; path = "../assests/fonts/UbuntuSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A437C31E8AD443EF88F54C0E /* UbuntuSans_Condensed-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-ExtraLight.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-ExtraLight.ttf"; sourceTree = "<group>"; };
 		A807E656B7700505D36677AC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Food_Island_Project/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AA79F73A7222461584059B4C /* UbuntuSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-Medium.ttf"; path = "../assests/fonts/UbuntuSans-Medium.ttf"; sourceTree = "<group>"; };
+		AB6A1D1C9C1048FB81D18B5B /* UbuntuSans_SemiCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-ThinItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AEE645F1D66D4DCCB2369B59 /* UbuntuSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-LightItalic.ttf"; path = "../assests/fonts/UbuntuSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		B13C72D6C0B24BE5AE85C1E3 /* UbuntuSans_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-BoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B5DEFD4BCACC44CEB9896FED /* UbuntuSans_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-ExtraBold.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BF7F1E7265E84692970BF4B2 /* UbuntuSans_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Light.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Light.ttf"; sourceTree = "<group>"; };
+		C0C86564272545078E0FD556 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assests/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C6C6DD3A561E4EC29086470F /* UbuntuSans_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-Bold.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		CCEEE0670A574EEC87DAE241 /* UbuntuSans_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-LightItalic.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		DB56A0D4CDA3476F8521C01B /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assests/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		DC117046F818423E8B3693D4 /* UbuntuSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-ExtraBold.ttf"; path = "../assests/fonts/UbuntuSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DEC22717CB804E8A9FBC8128 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assests/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		DFD1BA8441C24C9B89BE0B03 /* UbuntuSans_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-ExtraBold.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E38E2B5016134621AE63E0A5 /* UbuntuSans_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-SemiBoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E76D74A2CA514150AD906C9B /* UbuntuSans_Condensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Italic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Italic.ttf"; sourceTree = "<group>"; };
+		EC7DF909B95E4F8AB179B8A2 /* UbuntuSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans-ExtraLightItalic.ttf"; path = "../assests/fonts/UbuntuSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F5D6046465B648A99796A590 /* UbuntuSans_Condensed-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-Thin.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-Thin.ttf"; sourceTree = "<group>"; };
+		F7B2EFCBF9244B0081729506 /* UbuntuSans_SemiCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_SemiCondensed-ExtraLight.ttf"; path = "../assests/fonts/UbuntuSans_SemiCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F8F61E7E3ADB4726966C25B9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assests/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FDA6BC3BDD1E458DA808985C /* UbuntuSans_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UbuntuSans_Condensed-BoldItalic.ttf"; path = "../assests/fonts/UbuntuSans_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +225,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6D0ED36963754A1BBA480950 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1620E7BC92D54FBC8D29B902 /* Inter-Black.ttf */,
+				DEC22717CB804E8A9FBC8128 /* Inter-Bold.ttf */,
+				C0C86564272545078E0FD556 /* Inter-ExtraBold.ttf */,
+				2E162B74B79F4943A6163756 /* Inter-ExtraLight.ttf */,
+				6DEA7DF72CCA498B967B3671 /* Inter-Light.ttf */,
+				DB56A0D4CDA3476F8521C01B /* Inter-Medium.ttf */,
+				34DB52D2B61B4DF6B6C3EBDB /* Inter-Regular.ttf */,
+				F8F61E7E3ADB4726966C25B9 /* Inter-SemiBold.ttf */,
+				94358F69832E4790B487664A /* Inter-Thin.ttf */,
+				9CF11431974C46AFA5199085 /* UbuntuSans-Bold.ttf */,
+				4ECF66CAD9154B0A951B6B82 /* UbuntuSans-BoldItalic.ttf */,
+				DC117046F818423E8B3693D4 /* UbuntuSans-ExtraBold.ttf */,
+				1A5775FF63354FA0ABE3BDB4 /* UbuntuSans-ExtraBoldItalic.ttf */,
+				6EF3EC3D7DF24C92BD8F6BC1 /* UbuntuSans-ExtraLight.ttf */,
+				EC7DF909B95E4F8AB179B8A2 /* UbuntuSans-ExtraLightItalic.ttf */,
+				8F73A0D85F2A485EB2F6773F /* UbuntuSans-Italic.ttf */,
+				213831A7DE22408CAE1764F7 /* UbuntuSans-Light.ttf */,
+				AEE645F1D66D4DCCB2369B59 /* UbuntuSans-LightItalic.ttf */,
+				AA79F73A7222461584059B4C /* UbuntuSans-Medium.ttf */,
+				A166FC341ADF45D39314A3DB /* UbuntuSans-MediumItalic.ttf */,
+				4DBF035C5EFC4B379F9DF80A /* UbuntuSans-Regular.ttf */,
+				1BE6FB3307AC490280DD4119 /* UbuntuSans-SemiBold.ttf */,
+				1CC468DC8EC7414CA0B7688A /* UbuntuSans-SemiBoldItalic.ttf */,
+				8FB8840D877941009B64B98F /* UbuntuSans-Thin.ttf */,
+				441CF752F93844A0BD94EDFA /* UbuntuSans-ThinItalic.ttf */,
+				4266656308FA489689C58E66 /* UbuntuSans_Condensed-Bold.ttf */,
+				FDA6BC3BDD1E458DA808985C /* UbuntuSans_Condensed-BoldItalic.ttf */,
+				DFD1BA8441C24C9B89BE0B03 /* UbuntuSans_Condensed-ExtraBold.ttf */,
+				65A30B11122F4C6DB7AF357C /* UbuntuSans_Condensed-ExtraBoldItalic.ttf */,
+				A437C31E8AD443EF88F54C0E /* UbuntuSans_Condensed-ExtraLight.ttf */,
+				247A424734AD4694ACBB5628 /* UbuntuSans_Condensed-ExtraLightItalic.ttf */,
+				E76D74A2CA514150AD906C9B /* UbuntuSans_Condensed-Italic.ttf */,
+				3CF431260D7A473B8D8934EC /* UbuntuSans_Condensed-Light.ttf */,
+				270D3186A6194B7282138B56 /* UbuntuSans_Condensed-LightItalic.ttf */,
+				2071669BD4134D41A82D4523 /* UbuntuSans_Condensed-Medium.ttf */,
+				0C2E15EC88DE4D268F81DB60 /* UbuntuSans_Condensed-MediumItalic.ttf */,
+				9A7C8916FFD94CF7AB78034C /* UbuntuSans_Condensed-Regular.ttf */,
+				7C7828E4F6E54A13A151110D /* UbuntuSans_Condensed-SemiBold.ttf */,
+				E38E2B5016134621AE63E0A5 /* UbuntuSans_Condensed-SemiBoldItalic.ttf */,
+				F5D6046465B648A99796A590 /* UbuntuSans_Condensed-Thin.ttf */,
+				53B529512BB84FD78BC9BE1C /* UbuntuSans_Condensed-ThinItalic.ttf */,
+				C6C6DD3A561E4EC29086470F /* UbuntuSans_SemiCondensed-Bold.ttf */,
+				B13C72D6C0B24BE5AE85C1E3 /* UbuntuSans_SemiCondensed-BoldItalic.ttf */,
+				B5DEFD4BCACC44CEB9896FED /* UbuntuSans_SemiCondensed-ExtraBold.ttf */,
+				12129CABF1D04E97A336525E /* UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf */,
+				F7B2EFCBF9244B0081729506 /* UbuntuSans_SemiCondensed-ExtraLight.ttf */,
+				92BD4D6A97E64E8AAD9E6D4A /* UbuntuSans_SemiCondensed-ExtraLightItalic.ttf */,
+				9FE8CB13067048CCAE9F9562 /* UbuntuSans_SemiCondensed-Italic.ttf */,
+				BF7F1E7265E84692970BF4B2 /* UbuntuSans_SemiCondensed-Light.ttf */,
+				CCEEE0670A574EEC87DAE241 /* UbuntuSans_SemiCondensed-LightItalic.ttf */,
+				99D6B8C170734B7690AB2ED4 /* UbuntuSans_SemiCondensed-Medium.ttf */,
+				19B1B2FE71FD47D4B9DB4364 /* UbuntuSans_SemiCondensed-MediumItalic.ttf */,
+				77701C2A64DB48739EEFD012 /* UbuntuSans_SemiCondensed-Regular.ttf */,
+				47EF870E9B0F4B55AA151B95 /* UbuntuSans_SemiCondensed-SemiBold.ttf */,
+				8FA12C628349491FA41011AC /* UbuntuSans_SemiCondensed-SemiBoldItalic.ttf */,
+				1259CFB81E49497AA493C7F1 /* UbuntuSans_SemiCondensed-Thin.ttf */,
+				AB6A1D1C9C1048FB81D18B5B /* UbuntuSans_SemiCondensed-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +306,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6D0ED36963754A1BBA480950 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +429,63 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				921B084830AE4734BB567104 /* PrivacyInfo.xcprivacy in Resources */,
+				2E61667BD868471CA2EE3D24 /* Inter-Black.ttf in Resources */,
+				4DE1548334B14793A5D33AF2 /* Inter-Bold.ttf in Resources */,
+				D12C28DBE6BF48808AFF571E /* Inter-ExtraBold.ttf in Resources */,
+				DA48EF95807341FC8E6563E6 /* Inter-ExtraLight.ttf in Resources */,
+				F9B322EA80D747DEA0BA2B6B /* Inter-Light.ttf in Resources */,
+				7AE9C9F167FE4AB19C5E1206 /* Inter-Medium.ttf in Resources */,
+				3F2BD1E33E57460884D3F518 /* Inter-Regular.ttf in Resources */,
+				EA8A670F27164FDFA23246DD /* Inter-SemiBold.ttf in Resources */,
+				8751EC13AEA04ADF9967A984 /* Inter-Thin.ttf in Resources */,
+				201977C8A3394C84B36655F5 /* UbuntuSans-Bold.ttf in Resources */,
+				ED07B962E9BF410B9CB3B69B /* UbuntuSans-BoldItalic.ttf in Resources */,
+				83E8AFB6749A4F868E770717 /* UbuntuSans-ExtraBold.ttf in Resources */,
+				5A9DD6C13B934A3387187B78 /* UbuntuSans-ExtraBoldItalic.ttf in Resources */,
+				3E0FBAC949B74E02911D96CD /* UbuntuSans-ExtraLight.ttf in Resources */,
+				6D724A6714454849B4C671A9 /* UbuntuSans-ExtraLightItalic.ttf in Resources */,
+				834DCF6FCC3144309F676259 /* UbuntuSans-Italic.ttf in Resources */,
+				361ECDE6B63449D4B4A650A9 /* UbuntuSans-Light.ttf in Resources */,
+				3006CA2271BA417CA33D3A39 /* UbuntuSans-LightItalic.ttf in Resources */,
+				8DE3E722540E4D9781804324 /* UbuntuSans-Medium.ttf in Resources */,
+				3018A96773F54CD787F2D086 /* UbuntuSans-MediumItalic.ttf in Resources */,
+				000578573BF44EFCBF2CAF42 /* UbuntuSans-Regular.ttf in Resources */,
+				A3E6720EBEFA46A4928CE80F /* UbuntuSans-SemiBold.ttf in Resources */,
+				CD085FDCC3FC40518FE3DDC4 /* UbuntuSans-SemiBoldItalic.ttf in Resources */,
+				48052179DF8748DA8B8C4FEE /* UbuntuSans-Thin.ttf in Resources */,
+				2A12134F40CF4CDDA8420078 /* UbuntuSans-ThinItalic.ttf in Resources */,
+				896A06DBD6F04F40A683F618 /* UbuntuSans_Condensed-Bold.ttf in Resources */,
+				0F806DFB7EAA47D281B4FB52 /* UbuntuSans_Condensed-BoldItalic.ttf in Resources */,
+				53AFCA4B36054D8EB56F2EC1 /* UbuntuSans_Condensed-ExtraBold.ttf in Resources */,
+				B4C64F59E73C4FD798978D64 /* UbuntuSans_Condensed-ExtraBoldItalic.ttf in Resources */,
+				125150F75A084108A06CE020 /* UbuntuSans_Condensed-ExtraLight.ttf in Resources */,
+				1798842A8F4249CA9DBC07E7 /* UbuntuSans_Condensed-ExtraLightItalic.ttf in Resources */,
+				5597F256B8BC469BA05B4765 /* UbuntuSans_Condensed-Italic.ttf in Resources */,
+				8388D59CF04545DA881429C8 /* UbuntuSans_Condensed-Light.ttf in Resources */,
+				44F9C24A87AF4F8A9731421A /* UbuntuSans_Condensed-LightItalic.ttf in Resources */,
+				E65639908FA74A8EB2F045FD /* UbuntuSans_Condensed-Medium.ttf in Resources */,
+				AA3BC8C989D44017A1B38036 /* UbuntuSans_Condensed-MediumItalic.ttf in Resources */,
+				AD03582557D54DBBB86FA7FB /* UbuntuSans_Condensed-Regular.ttf in Resources */,
+				F6E6B853FF73409D9292EF24 /* UbuntuSans_Condensed-SemiBold.ttf in Resources */,
+				7102D8E12EDF406E84AE56E1 /* UbuntuSans_Condensed-SemiBoldItalic.ttf in Resources */,
+				2CFCC8AE8B7846D493455CD6 /* UbuntuSans_Condensed-Thin.ttf in Resources */,
+				47A10D2D9B824BE88619EFDB /* UbuntuSans_Condensed-ThinItalic.ttf in Resources */,
+				74D0F621AD66482C9A0DF97D /* UbuntuSans_SemiCondensed-Bold.ttf in Resources */,
+				3789BAA2BD814DD884A6FCBE /* UbuntuSans_SemiCondensed-BoldItalic.ttf in Resources */,
+				C441F91485574208901CDCD1 /* UbuntuSans_SemiCondensed-ExtraBold.ttf in Resources */,
+				9C2A2113CA6845569C88990E /* UbuntuSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
+				C6D3DA56A162424EA7D85EA3 /* UbuntuSans_SemiCondensed-ExtraLight.ttf in Resources */,
+				3643B9A1C05F4B7E91B6BEF9 /* UbuntuSans_SemiCondensed-ExtraLightItalic.ttf in Resources */,
+				7A18BF7BEE7F4CD5BA4CCEF1 /* UbuntuSans_SemiCondensed-Italic.ttf in Resources */,
+				850354C1DE6345B9B20DB4C2 /* UbuntuSans_SemiCondensed-Light.ttf in Resources */,
+				A2E4F7AA382F4917956B94E1 /* UbuntuSans_SemiCondensed-LightItalic.ttf in Resources */,
+				3361953BB33249C8A9A98C5D /* UbuntuSans_SemiCondensed-Medium.ttf in Resources */,
+				6685E51CAEB0480CA9B84EED /* UbuntuSans_SemiCondensed-MediumItalic.ttf in Resources */,
+				6B21CFE55F87416487BC1158 /* UbuntuSans_SemiCondensed-Regular.ttf in Resources */,
+				AF93B97B661040B3B8033AC2 /* UbuntuSans_SemiCondensed-SemiBold.ttf in Resources */,
+				C95C1FFB64F3466BA227E28E /* UbuntuSans_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+				B77BE076C6B441F7A8465FC2 /* UbuntuSans_SemiCondensed-Thin.ttf in Resources */,
+				FCA9D6953E9743ED985B2A5F /* UbuntuSans_SemiCondensed-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
