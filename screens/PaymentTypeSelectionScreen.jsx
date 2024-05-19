@@ -6,7 +6,7 @@ import {
   ImageBackground,
   SafeAreaView,
 } from 'react-native';
-import React from 'react';
+import React, {useReducer, useState} from 'react';
 import BackButton from '../components/Buttons/BackButton';
 import TitleDesc from '../components/ViewModals/TitleDesc';
 import LoginGLobalBtn from '../components/LoginGLobalBtn';
@@ -18,6 +18,9 @@ export default function PaymentTypeSelectionScreen({navigation}) {
   const goPrevScreen = () => {
     navigation.goBack();
   };
+
+  const [selectedBtn, setSelectedBtn] = useState(null);
+
   return (
     <View style={styles.root}>
       <ImageBackground
@@ -33,9 +36,18 @@ export default function PaymentTypeSelectionScreen({navigation}) {
               />
             </View>
             <View style={styles.paymentBarContainer}>
-              <PaypalBar />
-              <VisaBar />
-              <GpayBar />
+              <PaypalBar
+                isSelected={selectedBtn === 'paypal'}
+                onMethod={() => setSelectedBtn('paypal')}
+              />
+              <VisaBar
+                isSelected={selectedBtn === 'visa'}
+                onMethod={() => setSelectedBtn('visa')}
+              />
+              <GpayBar
+                isSelected={selectedBtn === 'gpay'}
+                onMethod={() => setSelectedBtn('gpay')}
+              />
             </View>
             <View style={styles.btnView}>
               <LoginGLobalBtn title="Next" />

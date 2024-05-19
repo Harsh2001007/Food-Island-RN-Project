@@ -1,10 +1,15 @@
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-export default function GpayBar() {
+export default function GpayBar({onMethod, isSelected}) {
   return (
     <Pressable
-      style={({pressed}) => [pressed && styles.pressed, styles.container]}>
+      onPress={onMethod}
+      style={({pressed}) => [
+        pressed && styles.pressed,
+        styles.container,
+        {borderColor: isSelected ? 'red' : '#F4F4F4'},
+      ]}>
       <Image
         source={require('../../assests/gpayLogo.png')}
         style={styles.imgStyle}
@@ -17,7 +22,6 @@ const styles = StyleSheet.create({
   container: {
     width: 335,
     height: 73,
-    borderColor: '#F4F4F4',
     backgroundColor: '#FFFFFF',
     borderWidth: 2,
     borderRadius: 16,

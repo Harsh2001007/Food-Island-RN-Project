@@ -7,6 +7,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import LoginScreen from './screens/LoginScreen';
 import UserDeatilScree from './screens/UserDeatilScree';
 import PaymentTypeSelectionScreen from './screens/PaymentTypeSelectionScreen';
+import Congratulation from './screens/Congratulation';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +16,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{headerBackTitleVisible: false}}
-        initialRouteName="onboarding-screen">
+        initialRouteName="Congratulation-screen">
         <Stack.Screen
           name="onboarding-screen"
           component={OnboardingScreen}
@@ -34,6 +35,13 @@ export default function App() {
         <Stack.Screen
           name="Paymentselection-screen"
           component={PaymentTypeSelectionScreen}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Congratulation-screen"
+          component={Congratulation}
           options={{
             headerShown: false,
           }}
