@@ -13,6 +13,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Profile from './screens/BottomBarScreens/Profile';
 import Chat from './screens/BottomBarScreens/Chat';
 import Cart from './screens/BottomBarScreens/Cart';
+import HomeIconBtmBar from './components/BottomBarIcons/HomeIconBtmBar';
+import ProfileIconBtmBar from './components/BottomBarIcons/ProfileIconBtmBar';
+import CartIconBtmBar from './components/BottomBarIcons/CartIconBtmBar';
+import ChatIconBtmBar from './components/BottomBarIcons/ChatIconBtmBar';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -30,28 +34,39 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarIcon: () => {
-            return (
-              <View>
-                <Text>Helllo</Text>
-              </View>
-            );
+            return <HomeIconBtmBar />;
           },
         }}
       />
       <BottomTab.Screen
         name="Profile-screen"
         component={Profile}
-        options={{headerShown: false}}
+        options={{
+          headerShown: false,
+          tabBarIcon: () => {
+            return <ProfileIconBtmBar />;
+          },
+        }}
       />
       <BottomTab.Screen
         name="Cart-screen"
         component={Cart}
-        options={{headerShown: false}}
+        options={{
+          headerShown: false,
+          tabBarIcon: () => {
+            return <CartIconBtmBar />;
+          },
+        }}
       />
       <BottomTab.Screen
         name="Chat-screen"
         component={Chat}
-        options={{headerShown: false}}
+        options={{
+          headerShown: false,
+          tabBarIcon: () => {
+            return <ChatIconBtmBar />;
+          },
+        }}
       />
     </BottomTab.Navigator>
   );
