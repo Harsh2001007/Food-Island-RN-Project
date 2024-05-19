@@ -19,6 +19,10 @@ export default function PaymentTypeSelectionScreen({navigation}) {
     navigation.goBack();
   };
 
+  const submitBtnHanlder = () => {
+    navigation.navigate('Congratulation-screen');
+  };
+
   const [selectedBtn, setSelectedBtn] = useState(null);
 
   return (
@@ -50,7 +54,7 @@ export default function PaymentTypeSelectionScreen({navigation}) {
               />
             </View>
             <View style={styles.btnView}>
-              <LoginGLobalBtn title="Next" />
+              <LoginGLobalBtn title="Next" onMethod={submitBtnHanlder} />
             </View>
           </View>
         </SafeAreaView>

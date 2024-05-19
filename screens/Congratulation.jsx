@@ -9,7 +9,10 @@ import {
 import React from 'react';
 import LoginGLobalBtn from '../components/LoginGLobalBtn';
 
-export default function Congratulation() {
+export default function Congratulation({navigation}) {
+  const submitBtnHanlder = () => {
+    navigation.navigate('Home-screen');
+  };
   return (
     <View style={styles.root}>
       <ImageBackground
@@ -37,7 +40,7 @@ export default function Congratulation() {
               </Text>
             </View>
             <View style={styles.btnView}>
-              <LoginGLobalBtn title="Next" />
+              <LoginGLobalBtn title="Next" onMethod={submitBtnHanlder} />
             </View>
           </View>
         </SafeAreaView>
