@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function ChatIconBtmBar() {
   return (
-    <Pressable>
+    <View>
       <Image source={require('../../assests/chatIconWashout.png')} />
-    </Pressable>
+    </View>
   );
 }
 

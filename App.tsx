@@ -26,16 +26,21 @@ function BottomBar() {
     <BottomTab.Navigator
       screenOptions={{
         tabBarShowLabel: false,
-        tabBarBadge: '44',
+        tabBarStyle: {
+          paddingHorizontal: 18,
+          paddingVertical: 10,
+        },
+        tabBarActiveBackgroundColor: '#FFCCCC',
       }}>
       <BottomTab.Screen
         name="Home-screen"
         component={Home}
         options={{
           headerShown: false,
-          tabBarIcon: () => {
+          tabBarButton: () => {
             return <HomeIconBtmBar />;
           },
+          tabBarLabel: 'Home',
         }}
       />
       <BottomTab.Screen

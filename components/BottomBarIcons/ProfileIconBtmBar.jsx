@@ -4,13 +4,13 @@ import {useNavigation} from '@react-navigation/native';
 
 export default function ProfileIconBtmBar() {
   const Navigation = useNavigation();
-  const navigationHandler = () => {
-    Navigation.navigate('onboarding-screen');
-  };
+  //   const navigationHandler = () => {
+  //     Navigation.navigate('onboarding-screen');
+  //   };
   return (
-    <Pressable onPress={navigationHandler}>
+    <View>
       <Image source={require('../../assests/profileIconWashout.png')} />
-    </Pressable>
+    </View>
   );
 }
 
