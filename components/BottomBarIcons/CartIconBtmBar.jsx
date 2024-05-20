@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function CartIconBtmBar() {
   return (
-    <View>
+    <Pressable>
       <Image source={require('../../assests/cartIconWashout.png')} />
-    </View>
+    </Pressable>
   );
 }
 
