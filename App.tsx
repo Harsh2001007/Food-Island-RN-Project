@@ -29,6 +29,8 @@ function BottomBar() {
         tabBarStyle: {
           paddingHorizontal: 18,
           paddingVertical: 10,
+          justifyContent: 'space-evenly',
+          alignItems: 'center',
         },
         tabBarActiveBackgroundColor: '#FFCCCC',
       }}>
@@ -48,7 +50,7 @@ function BottomBar() {
         component={Profile}
         options={{
           headerShown: false,
-          tabBarIcon: () => {
+          tabBarButton: () => {
             return <ProfileIconBtmBar />;
           },
         }}
@@ -58,7 +60,7 @@ function BottomBar() {
         component={Cart}
         options={{
           headerShown: false,
-          tabBarIcon: () => {
+          tabBarButton: () => {
             return <CartIconBtmBar />;
           },
         }}
@@ -68,7 +70,7 @@ function BottomBar() {
         component={Chat}
         options={{
           headerShown: false,
-          tabBarIcon: () => {
+          tabBarButton: () => {
             return <ChatIconBtmBar />;
           },
         }}

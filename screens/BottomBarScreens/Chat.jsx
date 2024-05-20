@@ -1,11 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
 import React from 'react';
 
 export default function Chat() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Chat</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
