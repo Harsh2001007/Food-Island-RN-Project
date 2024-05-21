@@ -37,7 +37,7 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            console.log(e);
+            console.log(e.accessibilityState?.selected);
             return (
               <BottomBarIcons
                 washoutImg={require('./assests/homeIconWashout.png')}
@@ -55,7 +55,6 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            console.log(e);
             return (
               <BottomBarIcons
                 washoutImg={require('./assests/profileIconWashout.png')}
@@ -72,7 +71,6 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            console.log(e);
             return (
               <BottomBarIcons
                 washoutImg={require('./assests/cartIconWashout.png')}
@@ -89,7 +87,6 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            console.log(e);
             return (
               <BottomBarIcons
                 washoutImg={require('./assests/chatIconWashout.png')}
