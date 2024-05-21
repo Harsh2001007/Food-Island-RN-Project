@@ -2,7 +2,7 @@ import {StyleSheet, Text, View, Pressable, Image} from 'react-native';
 import React, {useState, createContext} from 'react';
 import {useNavigation} from '@react-navigation/native';
 
-export default function HomeIconBtmBar() {
+export default function BottomBarIcons({washoutImg, filledImg, styling}) {
   const Navigation = useNavigation();
 
   const [click, setClick] = useState(false);
@@ -23,7 +23,7 @@ export default function HomeIconBtmBar() {
         },
       ]}
       onPress={IconClick}>
-      {click && <Image source={require('../../assests/homeIconWashout.png')} />}
+      {click && <Image source={washoutImg} />}
       {click === false && (
         <View
           style={
@@ -33,7 +33,7 @@ export default function HomeIconBtmBar() {
               flexDirection: 'row',
             }
           }>
-          <Image source={require('../../assests/homeIconFilled.png')} />
+          <Image source={filledImg} style={styling} />
           <Text>Home</Text>
         </View>
       )}
@@ -49,3 +49,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
 });
+
+// require('../../assests/homeIconWashout.png')
+// require('../../assests/homeIconFilled.png')

@@ -13,10 +13,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Profile from './screens/BottomBarScreens/Profile';
 import Chat from './screens/BottomBarScreens/Chat';
 import Cart from './screens/BottomBarScreens/Cart';
-import HomeIconBtmBar from './components/BottomBarIcons/HomeIconBtmBar';
-import ProfileIconBtmBar from './components/BottomBarIcons/ProfileIconBtmBar';
-import CartIconBtmBar from './components/BottomBarIcons/CartIconBtmBar';
-import ChatIconBtmBar from './components/BottomBarIcons/ChatIconBtmBar';
+import BottomBarIcons from './components/BottomBarIcons/BottomBarIcons';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -39,8 +36,15 @@ function BottomBar() {
         component={Home}
         options={{
           headerShown: false,
-          tabBarButton: () => {
-            return <HomeIconBtmBar />;
+          tabBarButton: e => {
+            console.log(e);
+            return (
+              <BottomBarIcons
+                washoutImg={require('./assests/homeIconWashout.png')}
+                filledImg={require('./assests/homeIconFilled.png')}
+                styling={{}}
+              />
+            );
           },
           tabBarLabel: 'Home',
         }}
@@ -50,8 +54,15 @@ function BottomBar() {
         component={Profile}
         options={{
           headerShown: false,
-          tabBarButton: () => {
-            return <ProfileIconBtmBar />;
+          tabBarButton: e => {
+            console.log(e);
+            return (
+              <BottomBarIcons
+                washoutImg={require('./assests/profileIconWashout.png')}
+                filledImg={require('./assests/profileIconFilled.png')}
+                styling={{}}
+              />
+            );
           },
         }}
       />
@@ -60,8 +71,15 @@ function BottomBar() {
         component={Cart}
         options={{
           headerShown: false,
-          tabBarButton: () => {
-            return <CartIconBtmBar />;
+          tabBarButton: e => {
+            console.log(e);
+            return (
+              <BottomBarIcons
+                washoutImg={require('./assests/cartIconWashout.png')}
+                filledImg={require('./assests/cartIconFilled.png')}
+                styling={{height: 25, width: 25}}
+              />
+            );
           },
         }}
       />
@@ -70,8 +88,15 @@ function BottomBar() {
         component={Chat}
         options={{
           headerShown: false,
-          tabBarButton: () => {
-            return <ChatIconBtmBar />;
+          tabBarButton: e => {
+            console.log(e);
+            return (
+              <BottomBarIcons
+                washoutImg={require('./assests/chatIconWashout.png')}
+                filledImg={require('./assests/chatIconFilled.png')}
+                styling={{}}
+              />
+            );
           },
         }}
       />
