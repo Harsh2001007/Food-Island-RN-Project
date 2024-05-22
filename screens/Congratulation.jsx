@@ -11,7 +11,7 @@ import LoginGLobalBtn from '../components/LoginGLobalBtn';
 
 export default function Congratulation({navigation}) {
   const submitBtnHanlder = () => {
-    navigation.navigate('Home-screen');
+    navigation.navigate('Bottom-bar');
   };
   return (
     <View style={styles.root}>

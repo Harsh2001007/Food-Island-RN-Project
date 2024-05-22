@@ -1,8 +1,8 @@
 import 'react-native-gesture-handler';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, Pressable} from 'react-native';
 import React from 'react';
 import OnboardingScreen from './screens/OnboardingScreen';
-import {NavigationContainer} from '@react-navigation/native';
+import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import LoginScreen from './screens/LoginScreen';
 import UserDeatilScree from './screens/UserDeatilScree';
@@ -14,11 +14,13 @@ import Profile from './screens/BottomBarScreens/Profile';
 import Chat from './screens/BottomBarScreens/Chat';
 import Cart from './screens/BottomBarScreens/Cart';
 import BottomBarIcons from './components/BottomBarIcons/BottomBarIcons';
+import BottomBarIconsActive from './components/BottomBarIcons/BottomBarIconsActive';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
 
 function BottomBar() {
+  const Navigation = useNavigation();
   return (
     <BottomTab.Navigator
       screenOptions={{
@@ -29,24 +31,35 @@ function BottomBar() {
           justifyContent: 'space-evenly',
           alignItems: 'center',
         },
-        tabBarActiveBackgroundColor: '#FFCCCC',
       }}>
       <BottomTab.Screen
         name="Home-screen"
         component={Home}
         options={{
           headerShown: false,
+          tabBarShowLabel: false,
+
           tabBarButton: e => {
             console.log(e.accessibilityState?.selected);
-            return (
-              <BottomBarIcons
-                washoutImg={require('./assests/homeIconWashout.png')}
-                filledImg={require('./assests/homeIconFilled.png')}
-                styling={{}}
-              />
-            );
+            if (e.accessibilityState?.selected === true) {
+              return (
+                <BottomBarIconsActive
+                  filledImg={require('./assests/homeIconFilled.png')}
+                  styling={{}}
+                  title={'Home'}
+                  onActive={console.log('home-icon')}
+                />
+              );
+            } else {
+              return (
+                <BottomBarIcons
+                  washoutImg={require('./assests/homeIconWashout.png')}
+                  styling={{}}
+                  onMethod={() => Navigation.navigate('Home-screen')}
+                />
+              );
+            }
           },
-          tabBarLabel: 'Home',
         }}
       />
       <BottomTab.Screen
@@ -55,13 +68,25 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            return (
-              <BottomBarIcons
-                washoutImg={require('./assests/profileIconWashout.png')}
-                filledImg={require('./assests/profileIconFilled.png')}
-                styling={{}}
-              />
-            );
+            console.log(e.accessibilityState?.selected);
+            if (e.accessibilityState?.selected === true) {
+              return (
+                <BottomBarIconsActive
+                  filledImg={require('./assests/profileIconFilled.png')}
+                  styling={{}}
+                  title={'Profile'}
+                  onActive={() => console.log('profile-icon')}
+                />
+              );
+            } else {
+              return (
+                <BottomBarIcons
+                  washoutImg={require('./assests/profileIconWashout.png')}
+                  styling={{}}
+                  onMethod={() => Navigation.navigate('Profile-screen')}
+                />
+              );
+            }
           },
         }}
       />
@@ -71,13 +96,25 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            return (
-              <BottomBarIcons
-                washoutImg={require('./assests/cartIconWashout.png')}
-                filledImg={require('./assests/cartIconFilled.png')}
-                styling={{height: 25, width: 25}}
-              />
-            );
+            console.log(e.accessibilityState?.selected);
+            if (e.accessibilityState?.selected === true) {
+              return (
+                <BottomBarIconsActive
+                  filledImg={require('./assests/cartIconFilled.png')}
+                  styling={{width: 25, height: 25}}
+                  title={'Cart'}
+                  onActive={() => console.log('cart-icon')}
+                />
+              );
+            } else {
+              return (
+                <BottomBarIcons
+                  washoutImg={require('./assests/cartIconWashout.png')}
+                  styling={{}}
+                  onMethod={() => Navigation.navigate('Cart-screen')}
+                />
+              );
+            }
           },
         }}
       />
@@ -87,13 +124,25 @@ function BottomBar() {
         options={{
           headerShown: false,
           tabBarButton: e => {
-            return (
-              <BottomBarIcons
-                washoutImg={require('./assests/chatIconWashout.png')}
-                filledImg={require('./assests/chatIconFilled.png')}
-                styling={{}}
-              />
-            );
+            console.log(e.accessibilityState?.selected);
+            if (e.accessibilityState?.selected === true) {
+              return (
+                <BottomBarIconsActive
+                  filledImg={require('./assests/chatIconFilled.png')}
+                  styling={{}}
+                  title={'Chat'}
+                  onActive={() => console.log('chat-icon')}
+                />
+              );
+            } else {
+              return (
+                <BottomBarIcons
+                  washoutImg={require('./assests/chatIconWashout.png')}
+                  styling={{}}
+                  onMethod={() => Navigation.navigate('Chat-screen')}
+                />
+              );
+            }
           },
         }}
       />
@@ -137,7 +186,7 @@ export default function App() {
           }}
         />
         <Stack.Screen
-          name="Home-screen"
+          name="Bottom-bar"
           component={BottomBar}
           options={{
             headerShown: false,
