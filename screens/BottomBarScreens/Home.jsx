@@ -4,6 +4,7 @@ import {
   View,
   SafeAreaView,
   ImageBackground,
+  ScrollView,
 } from 'react-native';
 import React from 'react';
 import TextView from '../../components/Home-Components/TextView';
@@ -12,6 +13,8 @@ import SearchBar from '../../components/Home-Components/SearchBar';
 import Filter from '../../components/Home-Components/Filter';
 import Banner from '../../components/Home-Components/Banner';
 import NearRestaurantHeader from '../../components/Home-Components/NearRestaurantHeader';
+import NearestRestaurantsView from '../../components/Home-Components/NearestRestaurantsView';
+import PopularMenus from '../../components/Home-Components/PopularMenus';
 
 export default function Home() {
   return (
@@ -20,23 +23,35 @@ export default function Home() {
       imageStyle={{opacity: 0.7}}
       style={styles.bgContainer}>
       <SafeAreaView>
-        <View style={styles.headerContainer}>
-          <TextView title={'Find Your Favorite Food'} />
-          <BellIcon />
-        </View>
-        <View style={styles.searchbarContainer}>
-          <SearchBar />
-          <Filter />
-        </View>
-        <View style={styles.bannerConatiner}>
-          <Banner
-            bannerTitle={'special deals for summer fun'}
-            btnTitle={'Buy Now'}
-          />
-        </View>
-        <View>
-          <NearRestaurantHeader />
-        </View>
+        <ScrollView>
+          <View style={styles.headerContainer}>
+            <TextView title={'Find Your Favorite Food'} />
+            <BellIcon />
+          </View>
+          <View style={styles.searchbarContainer}>
+            <SearchBar />
+            <Filter />
+          </View>
+          <View style={styles.bannerConatiner}>
+            <Banner
+              bannerTitle={'special deals for summer fun'}
+              btnTitle={'Buy Now'}
+            />
+          </View>
+          <View>
+            <NearRestaurantHeader title={'Nearest Restaurant'} />
+          </View>
+          <View
+            style={{paddingVertical: 10, borderColor: 'black', borderWidth: 1}}>
+            <NearestRestaurantsView />
+          </View>
+          <View>
+            <NearRestaurantHeader title={'Popular Menu'} />
+          </View>
+          <View>
+            <PopularMenus />
+          </View>
+        </ScrollView>
       </SafeAreaView>
     </ImageBackground>
   );
