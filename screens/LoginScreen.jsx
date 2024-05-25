@@ -28,7 +28,7 @@ export default function LoginScreen({navigation}) {
       </View>
       <View style={styles.socialLoginContainer}>
         <SocialLogins socialLoginText="Google" />
-        <FacebookLogin socialLoginText="Google" />
+        <FacebookLogin socialLoginText="Facebook" />
       </View>
       <Pressable
         style={{

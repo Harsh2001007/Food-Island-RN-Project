@@ -6,7 +6,9 @@ export default function NearRestaurantHeader() {
     <View style={styles.container}>
       <Text style={styles.title}>Nearest Restaurant</Text>
       <Pressable>
-        <Text style={{color: '#FF7C32', fontSize: 16}}>View More</Text>
+        <Text style={{color: '#FF7C32', fontSize: 16}}>
+          View More Restaurants
+        </Text>
       </Pressable>
     </View>
   );
