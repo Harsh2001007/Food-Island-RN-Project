@@ -1,9 +1,15 @@
 import {Pressable, StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
+import {useNavigation} from '@react-navigation/native';
 
 export default function BellIcon() {
+  const Navigation = useNavigation();
+
+  const redirectionHandler = () => {
+    Navigation.navigate('Notification-screen');
+  };
   return (
-    <Pressable style={styles.container}>
+    <Pressable style={styles.container} onPress={redirectionHandler}>
       <Image source={require('../../assests/bellIconOutline.png')} />
     </Pressable>
   );

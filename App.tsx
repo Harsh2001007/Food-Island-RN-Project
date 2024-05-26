@@ -15,6 +15,7 @@ import Chat from './screens/BottomBarScreens/Chat';
 import Cart from './screens/BottomBarScreens/Cart';
 import BottomBarIcons from './components/BottomBarIcons/BottomBarIcons';
 import BottomBarIconsActive from './components/BottomBarIcons/BottomBarIconsActive';
+import NotificationScreen from './screens/NotificationScreen';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -188,6 +189,13 @@ export default function App() {
         <Stack.Screen
           name="Bottom-bar"
           component={BottomBar}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Notification-screen"
+          component={NotificationScreen}
           options={{
             headerShown: false,
           }}

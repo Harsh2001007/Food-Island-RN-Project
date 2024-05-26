@@ -1,12 +1,15 @@
 import {StyleSheet, Text, View, Pressable} from 'react-native';
 import React from 'react';
 
-export default function NearRestaurantHeader({title}) {
+export default function NearRestaurantHeader({title, status}) {
+  const viewMore = {status};
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
       <Pressable>
-        <Text style={{color: '#FF7C32', fontSize: 16}}>View More</Text>
+        {viewMore && (
+          <Text style={{color: '#FF7C32', fontSize: 16}}>View More</Text>
+        )}
       </Pressable>
     </View>
   );
