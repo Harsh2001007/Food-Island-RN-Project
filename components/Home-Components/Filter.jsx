@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Filter() {
   return (
-    <Pressable>
+    <Pressable style={{borderColor: 'red', borderWidth: 2, borderRadius: 12}}>
       <Image source={require('../../assests/filter.png')} />
     </Pressable>
   );

@@ -17,8 +17,9 @@ export default function SearchBar() {
             backgroundColor: '#FBA8A8',
             alignItems: 'center',
             justifyContent: 'center',
-            borderTopLeftRadius: 10,
+            borderTopLeftRadius: 6,
             borderBottomLeftRadius: 10,
+            marginLeft: 10,
           }}>
           <Image
             source={require('../../assests/iconSearch.png')}
@@ -40,13 +41,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#FBA8A8',
     flex: 1,
     borderRadius: 10,
+    marginLeft: 8,
   },
   parent: {
     flexDirection: 'row',
     height: 50,
     width: 267,
     borderColor: '#FBA8A8',
-    borderRadius: 20,
+    borderRadius: 16,
+    marginTop: 20,
     backgroundColor: '#FBA8A8',
   },
 });

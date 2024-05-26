@@ -15,6 +15,7 @@ import Banner from '../../components/Home-Components/Banner';
 import NearRestaurantHeader from '../../components/Home-Components/NearRestaurantHeader';
 import NearestRestaurantsView from '../../components/Home-Components/NearestRestaurantsView';
 import PopularMenus from '../../components/Home-Components/PopularMenus';
+import PopularRestaurants from '../../components/Home-Components/PopularRestaurants';
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       imageStyle={{opacity: 0.7}}
       style={styles.bgContainer}>
       <SafeAreaView>
-        <ScrollView>
+        <ScrollView contentContainerStyle={{paddingHorizontal: 10}}>
           <View style={styles.headerContainer}>
             <TextView title={'Find Your Favorite Food'} />
             <BellIcon />
@@ -41,15 +42,20 @@ export default function Home() {
           <View>
             <NearRestaurantHeader title={'Nearest Restaurant'} />
           </View>
-          <View
-            style={{paddingVertical: 10, borderColor: 'black', borderWidth: 1}}>
+          <View style={{paddingVertical: 10}}>
             <NearestRestaurantsView />
           </View>
           <View>
             <NearRestaurantHeader title={'Popular Menu'} />
           </View>
-          <View>
+          <View style={styles.popularmenuContainer}>
             <PopularMenus />
+          </View>
+          <View>
+            <NearRestaurantHeader title={'Popular Restaurant'} />
+          </View>
+          <View style={styles.popularRestaurantContainer}>
+            <PopularRestaurants />
           </View>
         </ScrollView>
       </SafeAreaView>
@@ -66,20 +72,26 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     flexDirection: 'row',
-    borderWidth: 2,
-    borderColor: 'black',
     alignItems: 'center',
     justifyContent: 'space-between',
+    paddingHorizontal: 14,
   },
   searchbarContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'black',
-    marginTop: '10%',
+    marginTop: '5%',
     justifyContent: 'space-between',
+    paddingHorizontal: 10,
   },
   bannerConatiner: {
+    alignItems: 'center',
+  },
+  popularmenuContainer: {
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  popularRestaurantContainer: {
+    justifyContent: 'space-around',
     alignItems: 'center',
   },
 });

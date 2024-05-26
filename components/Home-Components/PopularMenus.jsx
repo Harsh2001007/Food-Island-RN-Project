@@ -45,16 +45,24 @@ const PopularMenuData = [
 ];
 
 const renderItem = ({item}) => (
-  <View style={styles.container}>
-    <Image
-      source={{uri: item.imageUrl}}
-      style={{height: 66, width: 66, borderRadius: 10}}
-    />
-    <View>
-      <Text style={styles.dishStyle}>{item.dishName}</Text>
-      <Text style={styles.restaurantStyle}>{item.restaurant}</Text>
+  <View
+    style={{
+      width: 340,
+      //   borderColor: 'red',
+      //   borderWidth: 1,
+      alignItems: 'center',
+    }}>
+    <View style={styles.container}>
+      <Image
+        source={{uri: item.imageUrl}}
+        style={{height: 66, width: 66, borderRadius: 10}}
+      />
+      <View>
+        <Text style={styles.dishStyle}>{item.dishName}</Text>
+        <Text style={styles.restaurantStyle}>{item.restaurant}</Text>
+      </View>
+      <Text style={styles.priceStyling}>{item.price}</Text>
     </View>
-    <Text style={styles.priceStyling}>{item.price}</Text>
   </View>
 );
 
@@ -73,18 +81,17 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     height: 87,
     width: 323,
-    borderWidth: 1,
-    borderColor: 'black',
     justifyContent: 'space-evenly',
     alignItems: 'center',
     marginBottom: 10,
     elevation: 5, // Adjust this value as needed for Android
     shadowColor: '#3B3B3B',
     shadowOpacity: 0.25,
-    shadowOffset: {width: 0, height: 0}, // Set offsets to 0 to make shadow appear all around
+    shadowOffset: {width: 2, height: 2}, // Set offsets to 0 to make shadow appear all around
     shadowRadius: 10, // Adjust this value as needed for iOS
     backgroundColor: '#FFFFFF',
     borderRadius: 16,
+    marginTop: 18,
   },
   dishStyle: {
     fontFamily: 'UbuntuSans-Bold',

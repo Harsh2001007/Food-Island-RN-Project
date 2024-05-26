@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View, FlatList, Image} from 'react-native';
 import React from 'react';
 
-const RestauratData = [
+const PopularRestauratData = [
   {
     name: 'Rest-1',
     distance: 12,
@@ -34,8 +34,14 @@ const RestauratData = [
   },
 ];
 
-const restaurantRenderItem = ({item}) => (
-  <View style={{height: 200, justifyContent: 'center', paddingHorizontal: 10}}>
+const PopularrestaurantRenderItem = ({item}) => (
+  <View
+    style={{
+      height: 200,
+      width: 180,
+      alignItems: 'flex-end',
+      justifyContent: 'center',
+    }}>
     <View style={styles.container}>
       <View style={{borderRadius: 14}}>
         <Image
@@ -50,14 +56,14 @@ const restaurantRenderItem = ({item}) => (
   </View>
 );
 
-export default function NearestRestaurantsView() {
+export default function PopularRestaurants() {
   return (
     <FlatList
-      data={RestauratData}
+      data={PopularRestauratData}
       keyExtractor={item => item.id}
-      renderItem={restaurantRenderItem}
-      horizontal={true}
+      renderItem={PopularrestaurantRenderItem}
       showsHorizontalScrollIndicator={false}
+      numColumns={2}
     />
   );
 }
@@ -76,6 +82,7 @@ const styles = StyleSheet.create({
     marginRight: 18,
     backgroundColor: '#FFFFFF',
     borderRadius: 16,
+    marginTop: 14,
   },
   distanceText: {
     fontFamily: 'UbuntuSans-SemiBold',
