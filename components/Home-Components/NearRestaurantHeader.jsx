@@ -8,7 +8,7 @@ export default function NearRestaurantHeader({title, status}) {
       <Text style={styles.title}>{title}</Text>
       <Pressable>
         {viewMore && (
-          <Text style={{color: '#FF7C32', fontSize: 16}}>View More item</Text>
+          <Text style={{color: '#FF7C32', fontSize: 16}}>View More items</Text>
         )}
       </Pressable>
     </View>
