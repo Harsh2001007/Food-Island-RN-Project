@@ -16,6 +16,7 @@ import Cart from './screens/BottomBarScreens/Cart';
 import BottomBarIcons from './components/BottomBarIcons/BottomBarIcons';
 import BottomBarIconsActive from './components/BottomBarIcons/BottomBarIconsActive';
 import NotificationScreen from './screens/NotificationScreen';
+import RestaurantInfoScreen from './screens/RestaurantInfoScreen';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -198,6 +199,14 @@ export default function App() {
           component={NotificationScreen}
           options={{
             headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Restaurant-screen"
+          component={RestaurantInfoScreen}
+          options={{
+            headerShown: false,
+            presentation: 'modal',
           }}
         />
       </Stack.Navigator>
