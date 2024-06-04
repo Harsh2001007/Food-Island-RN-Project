@@ -46,7 +46,7 @@ export default function NearestRestaurantsView({navigaton}) {
             />
           </View>
           <Text style={{marginTop: 8}}>{item.name}</Text>
-          <Text style={styles.distanceText}>{item.distance} Km</Text>
+          <Text style={styles.distanceText}>{item.distance} km</Text>
         </View>
       </Pressable>
     );
