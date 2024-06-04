@@ -16,7 +16,11 @@ import Cart from './screens/BottomBarScreens/Cart';
 import BottomBarIcons from './components/BottomBarIcons/BottomBarIcons';
 import BottomBarIconsActive from './components/BottomBarIcons/BottomBarIconsActive';
 import NotificationScreen from './screens/NotificationScreen';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {BottomSheetModalProvider} from '@gorhom/bottom-sheet';
 import RestaurantInfoScreen from './screens/RestaurantInfoScreen';
+import Bottomsheet, {BottomSheetView} from '@gorhom/bottom-sheet';
+import BottomSheetModal from '@gorhom/bottom-sheet';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -154,63 +158,67 @@ function BottomBar() {
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{headerBackTitleVisible: false}}
-        initialRouteName="onboarding-screen">
-        <Stack.Screen
-          name="onboarding-screen"
-          component={OnboardingScreen}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen name="Login-screen" component={LoginScreen} />
-        <Stack.Screen
-          name="Userdetail-screen"
-          component={UserDeatilScree}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Paymentselection-screen"
-          component={PaymentTypeSelectionScreen}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Congratulation-screen"
-          component={Congratulation}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Bottom-bar"
-          component={BottomBar}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Notification-screen"
-          component={NotificationScreen}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Restaurant-screen"
-          component={RestaurantInfoScreen}
-          options={{
-            headerShown: false,
-            presentation: 'modal',
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <GestureHandlerRootView>
+      <BottomSheetModalProvider>
+        <NavigationContainer>
+          <Stack.Navigator
+            screenOptions={{headerBackTitleVisible: false}}
+            initialRouteName="onboarding-screen">
+            <Stack.Screen
+              name="onboarding-screen"
+              component={OnboardingScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen name="Login-screen" component={LoginScreen} />
+            <Stack.Screen
+              name="Userdetail-screen"
+              component={UserDeatilScree}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Paymentselection-screen"
+              component={PaymentTypeSelectionScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Congratulation-screen"
+              component={Congratulation}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Bottom-bar"
+              component={BottomBar}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Notification-screen"
+              component={NotificationScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="Restaurant-screen"
+              component={RestaurantInfoScreen}
+              options={{
+                headerShown: false,
+                presentation: 'modal',
+              }}
+            />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </BottomSheetModalProvider>
+    </GestureHandlerRootView>
   );
 }
 const styles = StyleSheet.create({});
