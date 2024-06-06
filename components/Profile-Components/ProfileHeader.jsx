@@ -11,7 +11,7 @@ export default function ProfileHeader() {
       <View style={styles.memberTypeContainer}>
         <View style={styles.memberPill}>
           <Text style={{color: '#F85151', fontFamily: 'UbuntuSans-SemiBold'}}>
-            Gold Member
+            Prime Member
           </Text>
         </View>
       </View>

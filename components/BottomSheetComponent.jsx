@@ -12,7 +12,7 @@ export default function BottomSheetComponent() {
   };
   const handleOpenPress = () => bottomSheetRef.current?.expand();
   return (
-    <BottomSheet ref={bottomSheetRef} index={1} snapPoints={snapPoints}>
+    <BottomSheet ref={bottomSheetRef} index={0} snapPoints={snapPoints}>
       <View style={styles.sheetBody}></View>
     </BottomSheet>
   );
