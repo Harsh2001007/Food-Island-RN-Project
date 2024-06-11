@@ -1,13 +1,23 @@
 import {StyleSheet, Text, View, TextInput} from 'react-native';
-import React from 'react';
+import React, {useContext, useState} from 'react';
+import {TestGlobalValues} from '../screens/UserDeatilScree';
 
 export default function InputBlank({placeholder}) {
+  const [inputText, setInputText] = useState('');
+  const contextData = useContext(TestGlobalValues);
+
+  const inputHandler = text => {
+    setInputText(text);
+    contextData(inputText);
+  };
+
   return (
     <View style={styles.container}>
       <TextInput
         placeholder={placeholder}
         style={styles.input}
         placeholderTextColor={'grey'}
+        onChangeText={inputHandler}
       />
     </View>
   );

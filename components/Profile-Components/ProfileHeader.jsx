@@ -2,7 +2,7 @@ import {View, Text, Image, StyleSheet} from 'react-native';
 import React from 'react';
 import Voucher from './Voucher';
 
-export default function ProfileHeader() {
+export default function ProfileHeader({memberType}) {
   return (
     <View style={styles.container}>
       <View style={styles.sliderContainer}>
@@ -11,7 +11,7 @@ export default function ProfileHeader() {
       <View style={styles.memberTypeContainer}>
         <View style={styles.memberPill}>
           <Text style={{color: '#F85151', fontFamily: 'UbuntuSans-SemiBold'}}>
-            Prime Member
+            {memberType}
           </Text>
         </View>
       </View>
@@ -23,6 +23,7 @@ export default function ProfileHeader() {
         <Text style={{color: '#3B3B3B', fontSize: 14}}>Email</Text>
       </View>
       <View>
+        {/* instead of calling it 3 times make it dynamic as per the user actions */}
         <Voucher />
         <Voucher />
         <Voucher />
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
     marginTop: 24,
   },
   memberPill: {
-    width: 111,
+    width: 130,
     height: 34,
     backgroundColor: '#FEEDED',
     borderRadius: 20,

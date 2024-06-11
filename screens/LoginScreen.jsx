@@ -1,15 +1,19 @@
 import {StyleSheet, Text, View, ImageBackground, Pressable} from 'react-native';
-import React from 'react';
+import React, {createContext, useState} from 'react';
 import UserLoginLogo from '../components/UserLoginLogo';
 import InputBlank from '../components/InputBlank';
 import SocialLogins from '../components/SocialLogins';
 import FacebookLogin from '../components/FacebookLogin';
 import LoginGLobalBtn from '../components/LoginGLobalBtn';
 
+export const TestTwo = createContext();
+
 export default function LoginScreen({navigation}) {
   const loginBtnHandler = () => {
     navigation.navigate('Userdetail-screen');
   };
+
+  const [testing, setTesting] = useState('test key');
 
   return (
     <ImageBackground
@@ -47,7 +51,9 @@ export default function LoginScreen({navigation}) {
         </Text>
       </Pressable>
       <View style={styles.submitBtnView}>
-        <LoginGLobalBtn title="Next" onMethod={loginBtnHandler} />
+        <TestTwo.Provider value={{abc: testing}}>
+          <LoginGLobalBtn title="Next" onMethod={loginBtnHandler} />
+        </TestTwo.Provider>
       </View>
     </ImageBackground>
   );

@@ -1,18 +1,30 @@
 import {StyleSheet, Text, View, ImageBackground} from 'react-native';
-import React from 'react';
+import React, {createContext, useContext, useState} from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import BackButton from '../components/Buttons/BackButton';
 import TitleDesc from '../components/ViewModals/TitleDesc';
 import InputBlank from '../components/InputBlank';
 import LoginGLobalBtn from '../components/LoginGLobalBtn';
+import {get} from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
+
+export const TestGlobalValues = createContext();
 
 export default function UserDeatilScree({navigation}) {
+  const [testState, setTestState] = useState('testvalue');
+  const [superChildData, setSuperChildData] = useState('');
+  const [lastState, setLastState] = useState('');
+
   const userDetainBtnHandler = () => {
     navigation.navigate('Paymentselection-screen');
   };
 
   const goPrevScreen = () => {
     navigation.goBack();
+  };
+
+  const getData = item => {
+    console.log(item);
+    setSuperChildData(item);
   };
 
   return (
@@ -28,12 +40,16 @@ export default function UserDeatilScree({navigation}) {
                 title="Fill In Your Bio To Get Started"
                 Desc="This data will be displayed in your account profile for security"
               />
+              <Text>{superChildData}</Text>
             </View>
             <View>
-              <InputBlank placeholder="First Name" />
-              <InputBlank placeholder="Last Name" />
-              <InputBlank placeholder="Phone Number" />
+              <TestGlobalValues.Provider value={getData}>
+                <InputBlank placeholder="First Name" />
+                <InputBlank placeholder="Last Name" />
+                <InputBlank placeholder="Phone Number" />
+              </TestGlobalValues.Provider>
             </View>
+
             <View style={styles.btnView}>
               <LoginGLobalBtn title="Next" onMethod={userDetainBtnHandler} />
             </View>

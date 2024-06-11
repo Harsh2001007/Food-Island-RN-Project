@@ -6,7 +6,7 @@ import Voucher from '../../components/Profile-Components/Voucher';
 export default function Profile() {
   return (
     <SafeAreaView>
-      <ProfileHeader />
+      <ProfileHeader memberType={'Gold Member'} />
     </SafeAreaView>
   );
 }

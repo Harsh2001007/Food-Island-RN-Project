@@ -1,6 +1,6 @@
 import LinearGradient from 'react-native-linear-gradient';
 import {StyleSheet, Text, View, Pressable} from 'react-native';
-import React from 'react';
+import React, {useContext} from 'react';
 
 export default function LoginGLobalBtn({title, onMethod}) {
   return (

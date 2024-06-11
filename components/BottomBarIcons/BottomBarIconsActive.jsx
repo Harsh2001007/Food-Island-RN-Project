@@ -26,6 +26,3 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
 });
-
-// require('../../assests/homeIconWashout.png')
-// require('../../assests/homeIconFilled.png')
