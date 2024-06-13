@@ -19,8 +19,6 @@ import NotificationScreen from './screens/NotificationScreen';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {BottomSheetModalProvider} from '@gorhom/bottom-sheet';
 import RestaurantInfoScreen from './screens/RestaurantInfoScreen';
-import Bottomsheet, {BottomSheetView} from '@gorhom/bottom-sheet';
-import BottomSheetModal from '@gorhom/bottom-sheet';
 
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
