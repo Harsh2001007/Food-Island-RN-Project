@@ -20,24 +20,29 @@ export default function Congratulation({navigation}) {
         source={require('../assests/bg.png')}>
         <SafeAreaView>
           <View style={styles.contentRoot}>
-            <View style={styles.imgContainer}>
-              <Image source={require('../assests/redTick.png')} />
-            </View>
-            <View style={{paddingVertical: 10}}>
-              <Text
-                style={{
-                  fontFamily: 'Inter-Bold',
-                  color: 'red',
-                  fontSize: 28,
-                }}>
-                Congratulations !
-              </Text>
-            </View>
-            <View style={{paddingVertical: 10}}>
-              <Text
-                style={{fontFamily: 'UbuntuSans-MediumItalic', fontSize: 16}}>
-                You are all set to order your desired food !
-              </Text>
+            <View style={styles.topContainer}>
+              <View style={styles.imgContainer}>
+                <Image
+                  source={require('../assests/redTick.png')}
+                  style={styles.tickImage}
+                />
+              </View>
+              <View style={{paddingVertical: 10}}>
+                <Text
+                  style={{
+                    fontFamily: 'Inter-Bold',
+                    color: 'red',
+                    fontSize: 28,
+                  }}>
+                  Congratulations !
+                </Text>
+              </View>
+              <View style={{paddingVertical: 10}}>
+                <Text
+                  style={{fontFamily: 'UbuntuSans-MediumItalic', fontSize: 16}}>
+                  You are all set to order your desired food !
+                </Text>
+              </View>
             </View>
             <View style={styles.btnView}>
               <LoginGLobalBtn title="Next" onMethod={submitBtnHanlder} />
@@ -63,15 +68,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: '100%',
   },
-  //   imgContainer: {
-  //     marginBottom: 18,
-  //     borderColor: 'red',
-  //     borderWidth: 1,
-  //   },
-  //   descView: {
-  //     marginTop: 10,
-  //   },
-  btnView: {
-    marginTop: 200,
+
+  topContainer: {
+    height: '92%',
+    alignItems: 'center',
+  },
+  tickImage: {
+    marginTop: '50%',
   },
 });

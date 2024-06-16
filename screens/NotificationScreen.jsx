@@ -29,12 +29,12 @@ export default function NotificationScreen() {
           <NotificationBar
             date={'22nd July 2023'}
             imgSource={require('../assests/orderPickup.png')}
-            title={'Your order has been cancelled'}
+            title={'Your order has been picked up'}
           />
           <NotificationBar
             date={'22nd July 2023'}
             imgSource={require('../assests/topUp.png')}
-            title={'Your order has been cancelled'}
+            title={'Top up successfull !'}
           />
           <NotificationBar
             date={'22nd July 2023'}

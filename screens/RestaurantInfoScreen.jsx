@@ -28,10 +28,10 @@ export default function RestaurantInfoScreen({route}) {
       <InfoSection distance={meal.distance} rating={'4.5 Rating'} />
       <Description description={meal.description} />
       <NearRestaurantHeader title={'Popular Menu'} />
-      <NearestRestaurantsView />
+      <PopularMenus />
       <NearRestaurantHeader title={'Testimonals'} />
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
-        <PopularMenus />
+        <PopularRestaurants />
       </View>
     </ScrollView>
   );

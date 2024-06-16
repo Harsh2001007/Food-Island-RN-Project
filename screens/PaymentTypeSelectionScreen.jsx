@@ -32,26 +32,28 @@ export default function PaymentTypeSelectionScreen({navigation}) {
         source={require('../assests/bg.png')}>
         <SafeAreaView>
           <View style={styles.contentRoot}>
-            <BackButton onBack={goPrevScreen} />
-            <View style={styles.TitleDesc}>
-              <TitleDesc
-                title="Payment Method"
-                Desc="This data will be displayed in your account profile for security"
-              />
-            </View>
-            <View style={styles.paymentBarContainer}>
-              <PaypalBar
-                isSelected={selectedBtn === 'paypal'}
-                onMethod={() => setSelectedBtn('paypal')}
-              />
-              <VisaBar
-                isSelected={selectedBtn === 'visa'}
-                onMethod={() => setSelectedBtn('visa')}
-              />
-              <GpayBar
-                isSelected={selectedBtn === 'gpay'}
-                onMethod={() => setSelectedBtn('gpay')}
-              />
+            <View style={styles.topContainer}>
+              <BackButton onBack={goPrevScreen} />
+              <View style={styles.TitleDesc}>
+                <TitleDesc
+                  title="Payment Method"
+                  Desc="This data will be displayed in your account profile for security"
+                />
+              </View>
+              <View style={styles.paymentBarContainer}>
+                <PaypalBar
+                  isSelected={selectedBtn === 'paypal'}
+                  onMethod={() => setSelectedBtn('paypal')}
+                />
+                <VisaBar
+                  isSelected={selectedBtn === 'visa'}
+                  onMethod={() => setSelectedBtn('visa')}
+                />
+                <GpayBar
+                  isSelected={selectedBtn === 'gpay'}
+                  onMethod={() => setSelectedBtn('gpay')}
+                />
+              </View>
             </View>
             <View style={styles.btnView}>
               <LoginGLobalBtn title="Next" onMethod={submitBtnHanlder} />
@@ -78,7 +80,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   btnView: {
-    marginTop: 100,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -88,5 +89,8 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     height: '50%',
     justifyContent: 'space-evenly',
+  },
+  topContainer: {
+    height: '92%',
   },
 });

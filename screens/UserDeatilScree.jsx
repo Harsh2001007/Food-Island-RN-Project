@@ -34,20 +34,22 @@ export default function UserDeatilScree({navigation}) {
         source={require('../assests/bg.png')}>
         <SafeAreaView>
           <View style={styles.contentRoot}>
-            <BackButton onBack={goPrevScreen} />
-            <View style={styles.TitleDesc}>
-              <TitleDesc
-                title="Fill In Your Bio To Get Started"
-                Desc="This data will be displayed in your account profile for security"
-              />
-              <Text>{superChildData}</Text>
-            </View>
-            <View>
-              <TestGlobalValues.Provider value={getData}>
-                <InputBlank placeholder="First Name" />
-                <InputBlank placeholder="Last Name" />
-                <InputBlank placeholder="Phone Number" />
-              </TestGlobalValues.Provider>
+            <View style={styles.topContainer}>
+              <BackButton onBack={goPrevScreen} />
+              <View style={styles.TitleDesc}>
+                <TitleDesc
+                  title="Fill In Your Bio To Get Started"
+                  Desc="This data will be displayed in your account profile for security"
+                />
+                <Text>{superChildData}</Text>
+              </View>
+              <View>
+                <TestGlobalValues.Provider value={getData}>
+                  <InputBlank placeholder="First Name" />
+                  <InputBlank placeholder="Last Name" />
+                  <InputBlank placeholder="Phone Number" />
+                </TestGlobalValues.Provider>
+              </View>
             </View>
 
             <View style={styles.btnView}>
@@ -75,8 +77,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   btnView: {
-    marginTop: 200,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  topContainer: {
+    height: '92%',
   },
 });

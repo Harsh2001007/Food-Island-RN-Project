@@ -42,6 +42,8 @@ const styles = StyleSheet.create({
     flex: 1,
     borderRadius: 10,
     marginLeft: 8,
+    color: '#F85151',
+    paddingRight: 20,
   },
   parent: {
     flexDirection: 'row',
