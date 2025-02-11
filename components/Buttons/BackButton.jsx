@@ -14,8 +14,8 @@ export default function BackButton({onBack}) {
 
 const styles = StyleSheet.create({
   btnContainer: {
-    height: 45,
-    width: 45,
+    height: 50,
+    width: 50,
     borderColor: 'red',
     borderWidth: 1,
     borderRadius: 8,
