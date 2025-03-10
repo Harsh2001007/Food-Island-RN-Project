@@ -40,7 +40,7 @@ export default function Congratulation({navigation}) {
               <View style={{paddingVertical: 10}}>
                 <Text
                   style={{fontFamily: 'UbuntuSans-MediumItalic', fontSize: 16}}>
-                  You are all set to order your desired food !
+                  You're all set to order your desired food !
                 </Text>
               </View>
             </View>
